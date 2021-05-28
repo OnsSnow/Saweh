@@ -10,19 +10,21 @@ import { Publication } from '../Models/publication';
 export class PostComponent implements OnInit {
 
   Publications : Array<Publication> = [
-    {id :1, Title : "LAOUINA",Cost:300,Description:"HEllo I m im i m cckjcdkcuhckjdchkjdhcdcdkddd", Owner : "Ons"},
-    {id :1, Title : "HAMMAMET PLAGE",Cost:300,Description:"HEllo I m im i m cckjcdkcuhckjdchkjdhcdcdkddd", Owner : "Ons"},
-    {id :1, Title : "TAFELLOUN",Cost:300,Description:"HEllo I m im i m cckjcdkcuhckjdchkjdhcdcdkddd", Owner : "Ons"},
-    {id :1, Title : "dgdgdgdg",Cost:300,Description:"HEllo I m im i m cckjcdkcuhckjdchkjdhcdcdkddd", Owner : "Ons"},
-    {id :1, Title : "LKLKD",Cost:300,Description:"HEllo I m im i m cckjcdkcuhckjdchkjdhcdcdkddd", Owner : "Ons"},
-    {id :1, Title : "KSOKS",Cost:300,Description:"HEllo I m im i m cckjcdkcuhckjdchkjdhcdcdkddd", Owner : "Ons"},
-    {id :1, Title : "LKSLLLLLLLL",Cost:300,Description:"HEllo I m im i m cckjcdkcuhckjdchkjdhcdcdkddd", Owner : "Ons"},
-    {id :1, Title : "XXXXXXXXX",Cost:300,Description:"HEllo I m im i m cckjcdkcuhckjdchkjdhcdcdkddd", Owner : "Ons"},
+    {id:1,Title:"Title0",Description:"Description",Cost:200,Owner:"Owner",Image:"assets/1.jpg"},
+    {id:2,Title:"Title1",Description:"Description",Cost:150,Owner:"Owner",Image:"assets/2.jpg"},
+    {id:3,Title:"Title2",Description:"Description",Cost:60,Owner:"Owner",Image:"assets/3.jpg"},
+    {id:4,Title:"Title3",Description:"Description",Cost:500,Owner:"Owner",Image:"assets/4.jpg"},
+    {id:5,Title:"Title4",Description:"Description",Cost:54,Owner:"Owner",Image:"assets/5.jpg"},
+    {id:3,Title:"Title2",Description:"Description",Cost:85,Owner:"Owner",Image:"assets/3.jpg"},
+    {id:4,Title:"Title3",Description:"Description",Cost:100,Owner:"Owner",Image:"assets/4.jpg"},
+    {id:5,Title:"Title4",Description:"Description",Cost:0,Owner:"Owner",Image:"assets/5.jpg"},
+    {id:3,Title:"Title2",Description:"Description",Cost:522,Owner:"Owner",Image:"assets/3.jpg"},
+    {id:4,Title:"Title3",Description:"Description",Cost:15,Owner:"Owner",Image:"assets/4.jpg"},
+    {id:5,Title:"Title4",Description:"Description",Cost:175,Owner:"Owner",Image:"assets/5.jpg"},
   ];
   constructor() { }
 
   ngOnInit(): void {
-this.Publications = []
   }
 
 }

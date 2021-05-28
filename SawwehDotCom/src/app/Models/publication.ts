@@ -4,4 +4,5 @@ export class Publication {
     Cost : number;
     Description : string;
     Owner : string;
+    Image : string;
 }
