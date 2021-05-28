@@ -1,0 +1,80 @@
+
+
+
+<style>
+    .product-item {
+        border: 1px solid #eee;
+        margin-bottom: 30px;
+    }
+    .product-item .down-content {
+        padding: 0px;
+        position: relative;
+    }
+</style>
+<div>
+    <div class="container">
+        <div class="row">
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row" *ngFor="let pub of Publications">
+        <div class="col-sm col-lg-4">
+            <div class="col-md-12">
+                <div class="product-item" >
+                   <a  href="#"  ><img style="width : 100%" src="assets/2.jpg" alt=""></a> 
+                  <!-- <div class="Spacer"></div> -->
+                  <div class="down-content">
+                    <a href="#"><h4>{{pub.Title}}</h4></a>
+                    <h6>$30.25</h6>
+                    <p>{{pub.Description}}</p>
+                    <span>Reviews (21)</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm  col-lg-4">
+            <div class="col-md-12">
+                <div class="product-item" >
+                   <a  href="#"  ><img style="width : 100%" src="assets/2.jpg" alt=""></a> 
+                  <!-- <div class="Spacer"></div> -->
+                  <div class="down-content">
+                    <a href="#"><h4>Tittle goes here</h4></a>
+                    <h6>$30.25</h6>
+                    <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                    <span>Reviews (21)</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm col-lg-4">
+            <div class="col-md-12">
+                <div class="product-item" >
+                   <a  href="#"  ><img style="width : 100%" src="assets/2.jpg" alt=""></a> 
+                  <!-- <div class="Spacer"></div> -->
+                  <div class="down-content">
+                    <a href="#"><h4>Tittle goes here</h4></a>
+                    <h6>$30.25</h6>
+                    <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                    <span>Reviews (21)</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm col-lg-4">
+            <div class="col-md-12">
+                <div class="product-item" >
+                   <a  href="#"  ><img style="width : 100%" src="assets/2.jpg" alt=""></a> 
+                  <!-- <div class="Spacer"></div> -->
+                  <div class="down-content">
+                    <a href="#"><h4>Tittle goes here</h4></a>
+                    <h6>$30.25</h6>
+                    <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                    <span>Reviews (21)</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
